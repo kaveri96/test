@@ -5,6 +5,7 @@ driver = webdriver.Chrome(executable_path="C:\drivers1\chromedriver_win32\chrome
 
 driver.get("https://testautomationpractice.blogspot.com/")
 
+print("kaveri")
 driver.maximize_window()
 
 element = driver.find_element_by_xpath("//*[@id='HTML10']/div[1]/button")
